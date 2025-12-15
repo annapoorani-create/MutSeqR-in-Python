@@ -7,7 +7,7 @@ from sklearn.decomposition import PCA
 st.set_page_config(page_title="ECS VCF Analysis", layout="wide")
 st.header("ECS VCF Analysis")
 
-df = pd.read_csv("synthetic_large_mutation_dataset.csv")
+df = pd.read_csv("synthetic_large_mutation_dataset.xls")
 
 with st.expander("View the dataset head:"):
     st.dataframe(df.head(15))
